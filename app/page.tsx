@@ -20,7 +20,7 @@ export default function HomePage() {
             </h1>
           </div>
           <p className="text-white text-lg font-medium drop-shadow-md text-shadow-md">
-            Extrae enlaces y obtén imágenes de TheMovieDB by: StreamFusion.top
+            Extrae enlaces y obtén imágenes de TheMovieDB by: <a href="https://streamfusion.top" target="_blank" rel="noopener noreferrer">StreamFusion.top</a>
           </p>
         </div>
 
