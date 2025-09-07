@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Film, ImageIcon } from "lucide-react"
 import LinkExtractor from "@/components/link-extractor"
 import TMDBScraper from "@/components/tmdb-scraper"
-import Script from "next/script"
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<"link-extractor" | "tmdb-scraper">("link-extractor")
@@ -21,32 +20,8 @@ export default function HomePage() {
             </h1>
           </div>
           <p className="text-white text-lg font-medium drop-shadow-md text-shadow-md">
-            Extrae enlaces y obtén imágenes de TheMovieDB by:{" "}
-            <a href="https://streamfusion.top" target="_blank" rel="noopener noreferrer">
-              StreamFusion.top
-            </a>
+            Extrae enlaces y obtén imágenes de TheMovieDB by: <a href="https://streamfusion.top" target="_blank" rel="noopener noreferrer">StreamFusion.top</a>
           </p>
-        </div>
-
-        {/* 🚨 Bloque de anuncio */}
-        <div className="flex justify-center mb-6">
-          <div className="anuncio">
-            <Script id="ad-script" strategy="afterInteractive">
-              {`
-                atOptions = {
-                  'key' : 'd3f2d0bdcbdcf6bf7699f1bdca20fed1',
-                  'format' : 'iframe',
-                  'height' : 50,
-                  'width' : 320,
-                  'params' : {}
-                };
-              `}
-            </Script>
-            <Script
-              src="//www.highperformanceformat.com/d3f2d0bdcbdcf6bf7699f1bdca20fed1/invoke.js"
-              strategy="afterInteractive"
-            />
-          </div>
         </div>
 
         {/* Tab Navigation */}
