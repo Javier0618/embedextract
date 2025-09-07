@@ -24,6 +24,27 @@ export default function HomePage() {
           </p>
         </div>
 
+        {/* 🚨 Bloque de anuncio */}
+        <div className="flex justify-center mb-6">
+          <div className="anuncio">
+            <Script id="ad-script" strategy="afterInteractive">
+              {`
+                atOptions = {
+                  'key' : 'd3f2d0bdcbdcf6bf7699f1bdca20fed1',
+                  'format' : 'iframe',
+                  'height' : 50,
+                  'width' : 320,
+                  'params' : {}
+                };
+              `}
+            </Script>
+            <Script
+              src="//www.highperformanceformat.com/d3f2d0bdcbdcf6bf7699f1bdca20fed1/invoke.js"
+              strategy="afterInteractive"
+            />
+          </div>
+        </div>
+
         {/* Tab Navigation */}
         <div className="flex justify-center mb-8">
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-1 flex border border-white/20">
