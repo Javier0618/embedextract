@@ -24,19 +24,6 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="anuncio">
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'd3f2d0bdcbdcf6bf7699f1bdca20fed1',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/d3f2d0bdcbdcf6bf7699f1bdca20fed1/invoke.js"></script>
-</div>
-
         {/* Tab Navigation */}
         <div className="flex justify-center mb-8">
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-1 flex border border-white/20">
