@@ -16,11 +16,11 @@ export default function HomePage() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Film className="h-10 w-10 text-white drop-shadow-lg" />
             <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg text-shadow-lg">
-              Media Tools Suite
+              Scraper - Link Embed - TMDB
             </h1>
           </div>
           <p className="text-white text-lg font-medium drop-shadow-md text-shadow-md">
-            Extrae enlaces de películas y series, y obtén imágenes de TheMovieDB
+            Extrae enlaces y obtén imágenes de TheMovieDB
           </p>
         </div>
 
