@@ -24,7 +24,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div class="anuncio">
+        <div className="anuncio">
 <script type="text/javascript">
 	atOptions = {
 		'key' : 'd3f2d0bdcbdcf6bf7699f1bdca20fed1',
